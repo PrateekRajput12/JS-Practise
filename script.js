@@ -277,3 +277,40 @@
 
 
 // }
+
+
+
+// Que 15 Armstrong
+
+
+function convert() {
+    const data = document.querySelector("#data").value
+    let res
+    let temp = data
+    let sum = 0
+    if (data == 0 || data < 0) {
+        res = ` there is no armstrong number for ${data}`
+    } else {
+
+        while (temp > 0) {
+            let moretemp = temp % 10
+            sum += (moretemp ** 3)
+            temp = parseInt(temp / 10)
+        }
+        console.log(data);
+        console.log(sum);
+        if (sum == data) {
+            res = `${data} is an Armstrong number`
+        }
+        else {
+            res = `${data} is not an Armstrong number`
+
+        }
+
+    }
+
+    // document.querySelector("#answer").innerHTML = `${data} X ${i} = ${data * i} `
+    document.querySelector("#answer").innerHTML = `${res} `
+
+
+}
