@@ -129,7 +129,7 @@
 //     // let res = Math.sign(data)
 
 
-//     if (data > 0) {
+//     if (data >= 0) {
 //         res = `${data} is Positive Number`
 //     } else if (data == 0) {
 //         res = `${data} is Zero `
@@ -158,7 +158,7 @@
 // }
 
 
-// ----Que 10 odd or even 
+// ----Que 10 odd or even
 
 // function convert() {
 //     const data = document.querySelector('#data').value
@@ -178,17 +178,17 @@
 // === Que 11 prime number
 
 
-function convert() {
-    const data = document.querySelector('#data').value
-    // let res = data % 2 == 0 ? "even" : "odd"
-    let res
-    // if (data % 2 == 0) {
-    //     res = `${data} is even`
-    // } else if (data % 2 != 0) {
-    //     res = `${data} is odd`
-    // } else {
-    //     res = `${data} is nan`
-    // }
+// function convert() {
+// const data = document.querySelector('#data').value
+// let res = data % 2 == 0 ? "even" : "odd"
+// let res
+// if (data % 2 == 0) {
+//     res = `${data} is even`
+// } else if (data % 2 != 0) {
+//     res = `${data} is odd`
+// } else {
+//     res = `${data} is nan`
+// }
 //     if (data === 1) {
 //         res = `${data} is neither prime nor composite`
 //     }
@@ -212,3 +212,29 @@ function convert() {
 
 //     document.querySelector("#answer").innerHTML = res
 // }
+
+
+// Que 12 Largest among 3 numbers
+
+function convert() {
+    let a = parseInt(prompt("Enter number a"))
+    let b = parseInt(prompt("Enter number b"))
+    let c = parseInt(prompt("Enter number c"))
+    let res
+    if (a >= b && a >= c) {
+        res = `${a} is greater which is a`
+
+    } else if (b >= a && b >= c) {
+        res = `${b} is greater which is b`
+
+    }
+    else if (c >= a && c >= b) {
+        res = `${c} is greater which is c`
+
+    }
+    else {
+        res = `Enter valid number `
+
+    }
+    document.querySelector("#answer").innerHTML = res
+}
