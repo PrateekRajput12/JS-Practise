@@ -65,12 +65,32 @@
 
 // without using temp variable 
 
-let a = parseInt(prompt("Enter value of a "))
-let b = parseInt(prompt("Enter value of b "))
-a = a + b
-b = a - b
-a = a - b
+// let a = parseInt(prompt("Enter value of a "))
+// let b = parseInt(prompt("Enter value of b "))
+// a = a + b
+// b = a - b
+// a = a - b
 
-document.writeln("value of a is :" + a + " value of b is :" + b)
+// document.writeln("value of a is :" + a + " value of b is :" + b)
 
 
+
+
+// Que 6 kilometers to miles
+
+// let km = parseInt(prompt("Enter value in kms "))
+// const factor = 0.621371
+// let miles = km * factor
+// document.writeln("kilomters in miles is: " + miles)
+
+
+// function convert() {
+//     const kms = document.querySelector("#km").value
+//     console.log(kms);
+//     const factor = 0.621371
+//     let miles = kms * factor
+//     const answer = document.querySelector("#answer")
+//     answer.innerHTML = `${miles} miles`
+
+
+// }
