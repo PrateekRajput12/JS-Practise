@@ -216,25 +216,48 @@
 
 // Que 12 Largest among 3 numbers
 
-function convert() {
-    let a = parseInt(prompt("Enter number a"))
-    let b = parseInt(prompt("Enter number b"))
-    let c = parseInt(prompt("Enter number c"))
-    let res
-    if (a >= b && a >= c) {
-        res = `${a} is greater which is a`
+// function convert() {
+//     let a = parseInt(prompt("Enter number a"))
+//     let b = parseInt(prompt("Enter number b"))
+//     let c = parseInt(prompt("Enter number c"))
+//     let res
+//     if (a >= b && a >= c) {
+//         res = `${a} is greater which is a`
 
-    } else if (b >= a && b >= c) {
-        res = `${b} is greater which is b`
+//     } else if (b >= a && b >= c) {
+//         res = `${b} is greater which is b`
 
-    }
-    else if (c >= a && c >= b) {
-        res = `${c} is greater which is c`
+//     }
+//     else if (c >= a && c >= b) {
+//         res = `${c} is greater which is c`
 
-    }
-    else {
-        res = `Enter valid number `
+//     }
+//     else {
+//         res = `Enter valid number `
 
-    }
-    document.querySelector("#answer").innerHTML = res
-}
+//     }
+//     document.querySelector("#answer").innerHTML = res
+// }
+
+// Que 13 factorial\
+
+// function convert() {
+//     const data = document.querySelector("#data").value
+//     let res = 1
+//     // let sum = 0
+//     if (data == 0) {
+//         res = "factorial of 0 is 0 "
+//         document.querySelector("#answer").innerHTML = res
+//         return
+//     }
+//     else if (data < 0) {
+//         res = "there is no factorial for -ve number "
+//         document.querySelector("#answer").innerHTML = res
+//         return
+//     }
+//     for (let i = 1; i <= data; i++) {
+//         res = res * i
+//     }
+//     document.querySelector("#answer").innerHTML = `factorial of ${data} is ${res}`
+// }
+
