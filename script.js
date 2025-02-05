@@ -283,34 +283,58 @@
 // Que 15 Armstrong
 
 
+// function convert() {
+//     const data = document.querySelector("#data").value
+//     let res
+//     let temp = data
+//     let sum = 0
+//     if (data == 0 || data < 0) {
+//         res = ` there is no armstrong number for ${data}`
+//     } else {
+
+//         while (temp > 0) {
+//             let moretemp = temp % 10
+//             sum += (moretemp ** 3)
+//             temp = parseInt(temp / 10)
+//         }
+//         console.log(data);
+//         console.log(sum);
+//         if (sum == data) {
+//             res = `${data} is an Armstrong number`
+//         }
+//         else {
+//             res = `${data} is not an Armstrong number`
+
+//         }
+
+//     }
+
+//     // document.querySelector("#answer").innerHTML = `${data} X ${i} = ${data * i} `
+//     document.querySelector("#answer").innerHTML = `${res} `
+
+
+// }
+
+
+// QUe 16 remainder
+
+
 function convert() {
     const data = document.querySelector("#data").value
-    let res
-    let temp = data
-    let sum = 0
-    if (data == 0 || data < 0) {
-        res = ` there is no armstrong number for ${data}`
+
+    let a = parseInt(prompt("ENter value "))
+    let b = parseInt(prompt("ENter value "))
+    let c = parseInt(prompt("ENter value "))
+
+    let res1 = a % 10
+    let res2 = b % 10
+    let res3 = c % 10
+
+    if (res1 == res2 && res1 == res3) {
+        document.querySelector("#answer").innerHTML = `last digit is ${res1} which is same for all `
+
     } else {
-
-        while (temp > 0) {
-            let moretemp = temp % 10
-            sum += (moretemp ** 3)
-            temp = parseInt(temp / 10)
-        }
-        console.log(data);
-        console.log(sum);
-        if (sum == data) {
-            res = `${data} is an Armstrong number`
-        }
-        else {
-            res = `${data} is not an Armstrong number`
-
-        }
-
+        document.querySelector("#answer").innerHTML = `last digit is ${res1} which is not same for all `
     }
-
-    // document.querySelector("#answer").innerHTML = `${data} X ${i} = ${data * i} `
-    document.querySelector("#answer").innerHTML = `${res} `
-
 
 }
