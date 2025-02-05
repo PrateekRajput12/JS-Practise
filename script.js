@@ -151,8 +151,64 @@
 // que 9 generate random  number
 
 
-function convert() {
-    let n = Math.floor(Math.random() * (100 - 1) + 1)
+// function convert() {
+//     let n = Math.floor(Math.random() * (100 - 1) + 1)
 
-    document.querySelector("#answer").innerHTML = n
-}
+//     document.querySelector("#answer").innerHTML = n
+// }
+
+
+// ----Que 10 odd or even 
+
+// function convert() {
+//     const data = document.querySelector('#data').value
+//     let res = data % 2 == 0 ? "even" : "odd"
+//     // if (data % 2 == 0) {
+//     //     res = `${data} is even`
+//     // } else if (data % 2 != 0) {
+//     //     res = `${data} is odd`
+//     // } else {
+//     //     res = `${data} is nan`
+//     // }
+
+//     document.querySelector("#answer").innerHTML = res
+// }
+
+
+// === Que 11 prime number
+
+
+function convert() {
+    const data = document.querySelector('#data').value
+    // let res = data % 2 == 0 ? "even" : "odd"
+    let res
+    // if (data % 2 == 0) {
+    //     res = `${data} is even`
+    // } else if (data % 2 != 0) {
+    //     res = `${data} is odd`
+    // } else {
+    //     res = `${data} is nan`
+    // }
+//     if (data === 1) {
+//         res = `${data} is neither prime nor composite`
+//     }
+//     else if (data < 1) {
+//         res = `${data} is not prime `
+//     }
+//     else {
+//         for (let i = 2; i < data; i++) {
+//             if (data % i == 0) {
+//                 res = `${data} is not prime `
+//                 break
+//             }
+//             else {
+//                 res = `${data} is  prime `
+
+//             }
+
+//         }
+
+//     }
+
+//     document.querySelector("#answer").innerHTML = res
+// }
