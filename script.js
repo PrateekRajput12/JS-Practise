@@ -24,7 +24,7 @@
 
 
 
-//  Que-3 Sqe root of number 
+//  Que-3 Sqe root of number
 
 // let a = 8
 // let sqr1 = a * a
@@ -63,7 +63,7 @@
 // a = c
 // document.writeln("value of a is :" + a + " value of b is :" + b)
 
-// without using temp variable 
+// without using temp variable
 
 // let a = parseInt(prompt("Enter value of a "))
 // let b = parseInt(prompt("Enter value of b "))
@@ -102,15 +102,47 @@
 // let faherenheit = celsius * 1.8 / 32
 // document.writeln("answer in faherheit :" + faherenheit)
 
+// function convert() {
+//     const data = document.querySelector("#data").value
+//     // console.log(kms);
+//     // const factor = 0.621371
+//     let faherenheit = (data * 1.8) + 32
+//     // const answer = document.querySelector("#answer")
+//     // answer.innerHTML = `${miles} miles`
+
+//     document.querySelector("#answer").innerHTML = `${faherenheit} faherenheit`
+
+
+// }
+
+
+// Que 8 check if +ve -ve or 0
+
+
 function convert() {
     const data = document.querySelector("#data").value
     // console.log(kms);
     // const factor = 0.621371
-    let faherenheit = (data * 1.8) + 32
+    // let faherenheit = (data * 1.8) + 32
     // const answer = document.querySelector("#answer")
     // answer.innerHTML = `${miles} miles`
+    // let res = Math.sign(data)
 
-    document.querySelector("#answer").innerHTML = `${faherenheit} faherenheit`
+
+    if (data > 0) {
+        res = `${data} is Positive Number`
+    } else if (data == 0) {
+        res = `${data} is Zero `
+
+    } else if (data < 0) {
+        res = `${data} is Negative Number`
+
+    }
+    else {
+        res = `${data} is not a Number`
+
+    }
+    document.querySelector("#answer").innerHTML = `${res} `
 
 
 }
