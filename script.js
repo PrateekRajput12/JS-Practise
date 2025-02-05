@@ -94,3 +94,23 @@
 
 
 // }
+
+// Que 7 ======= celsius to fahrenheit
+
+
+// let celsius = parseFloat(prompt("Enter celsius :"))
+// let faherenheit = celsius * 1.8 / 32
+// document.writeln("answer in faherheit :" + faherenheit)
+
+function convert() {
+    const data = document.querySelector("#data").value
+    // console.log(kms);
+    // const factor = 0.621371
+    let faherenheit = (data * 1.8) + 32
+    // const answer = document.querySelector("#answer")
+    // answer.innerHTML = `${miles} miles`
+
+    document.querySelector("#answer").innerHTML = `${faherenheit} faherenheit`
+
+
+}
