@@ -119,30 +119,40 @@
 // Que 8 check if +ve -ve or 0
 
 
+// function convert() {
+//     const data = document.querySelector("#data").value
+//     // console.log(kms);
+//     // const factor = 0.621371
+//     // let faherenheit = (data * 1.8) + 32
+//     // const answer = document.querySelector("#answer")
+//     // answer.innerHTML = `${miles} miles`
+//     // let res = Math.sign(data)
+
+
+//     if (data > 0) {
+//         res = `${data} is Positive Number`
+//     } else if (data == 0) {
+//         res = `${data} is Zero `
+
+//     } else if (data < 0) {
+//         res = `${data} is Negative Number`
+
+//     }
+//     else {
+//         res = `${data} is not a Number`
+
+//     }
+//     document.querySelector("#answer").innerHTML = `${res} `
+
+
+// }
+
+
+// que 9 generate random  number
+
+
 function convert() {
-    const data = document.querySelector("#data").value
-    // console.log(kms);
-    // const factor = 0.621371
-    // let faherenheit = (data * 1.8) + 32
-    // const answer = document.querySelector("#answer")
-    // answer.innerHTML = `${miles} miles`
-    // let res = Math.sign(data)
+    let n = Math.floor(Math.random() * (100 - 1) + 1)
 
-
-    if (data > 0) {
-        res = `${data} is Positive Number`
-    } else if (data == 0) {
-        res = `${data} is Zero `
-
-    } else if (data < 0) {
-        res = `${data} is Negative Number`
-
-    }
-    else {
-        res = `${data} is not a Number`
-
-    }
-    document.querySelector("#answer").innerHTML = `${res} `
-
-
+    document.querySelector("#answer").innerHTML = n
 }
