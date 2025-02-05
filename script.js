@@ -48,3 +48,29 @@
 // let temp = s * (s - a) * (s - b) * (s - c)
 // let area = Math.sqrt(temp)
 // document.write("a is: " + area)
+
+
+
+// Que 5 Swa[ two number
+
+// using temp variable
+// let a = parseInt(prompt("Enter value of a"))
+// let b = parseInt(prompt("Enter value of b"))
+
+
+// let c = b
+// b = a
+// a = c
+// document.writeln("value of a is :" + a + " value of b is :" + b)
+
+// without using temp variable 
+
+let a = parseInt(prompt("Enter value of a "))
+let b = parseInt(prompt("Enter value of b "))
+a = a + b
+b = a - b
+a = a - b
+
+document.writeln("value of a is :" + a + " value of b is :" + b)
+
+
