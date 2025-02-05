@@ -261,3 +261,19 @@
 //     document.querySelector("#answer").innerHTML = `factorial of ${data} is ${res}`
 // }
 
+// que 14 print table
+
+
+// function convert() {
+//     const data = document.querySelector("#data").value
+//     let res
+//     for (let i = 1; i <= 10; i++) {
+//         res = `${data} X ${i} = ${data * i} `
+//         console.log(res);
+
+//     }
+//     // document.querySelector("#answer").innerHTML = `${data} X ${i} = ${data * i} `
+//     document.querySelector("#answer").innerHTML = `${res} `
+
+
+// }
