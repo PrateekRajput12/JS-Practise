@@ -383,14 +383,40 @@
 
 // Que 18 -- check number of occurrneces of a character in a string using for loop
 
-function convert() {
-    let str = prompt("Please enter a string")
-    let letter = prompt("Please enter a letter")
-    let count = 0;
-    for (let i = 0; i < str.length; i++) {
-        if (letter == str[i]) {
-            count++
-        }
-    }
-    console.log(count);
+// function convert() {
+//     let str = prompt("Please enter a string")
+//     let letter = prompt("Please enter a letter")
+//     let count = 0;
+//     for (let i = 0; i < str.length; i++) {
+//         if (letter == str[i]) {
+//             count++
+//         }
+//     }
+//     console.log(count);
+// }
+
+
+// que 19  check whether a string starts and ends woth certain characters
+
+let str = prompt("Please enter a string")
+console.log(str);
+let teststart = str.startsWith("W")
+let testend = str.endsWith("e")
+console.log(`Start ${teststart}`);
+console.log(`end ${testend}`);
+if (teststart == true && testend == true) {
+    console.log(`${str}starts with W and ends with e`);
 }
+else if (teststart == true && testend == false) {
+    console.log(`${str}starts with W `);
+
+}
+else if (teststart == false && testend == true) {
+    console.log(`${str}ends with e`);
+
+}
+else {
+    console.log(`${str} not start with W and ends with e`);
+
+}
+
