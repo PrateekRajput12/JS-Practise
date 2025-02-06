@@ -479,3 +479,13 @@
 //     }
 // }
 
+
+
+// Q-23 find factor of number
+
+let num = parseInt(prompt("ENter a number"))
+for (let i = 2; i <= num; i++) {
+    if (num % i == 0) {
+        console.log(i);
+    }
+}
