@@ -398,25 +398,51 @@
 
 // que 19  check whether a string starts and ends woth certain characters
 
-let str = prompt("Please enter a string")
-console.log(str);
-let teststart = str.startsWith("W")
-let testend = str.endsWith("e")
-console.log(`Start ${teststart}`);
-console.log(`end ${testend}`);
-if (teststart == true && testend == true) {
-    console.log(`${str}starts with W and ends with e`);
-}
-else if (teststart == true && testend == false) {
-    console.log(`${str}starts with W `);
+// let str = prompt("Please enter a string")
+// console.log(str);
+// let teststart = str.startsWith("W")
+// let testend = str.endsWith("e")
+// console.log(`Start ${teststart}`);
+// console.log(`end ${testend}`);
+// if (teststart == true && testend == true) {
+//     console.log(`${str}starts with W and ends with e`);
+// }
+// else if (teststart == true && testend == false) {
+//     console.log(`${str}starts with W `);
 
-}
-else if (teststart == false && testend == true) {
-    console.log(`${str}ends with e`);
+// }
+// else if (teststart == false && testend == true) {
+//     console.log(`${str}ends with e`);
 
-}
-else {
-    console.log(`${str} not start with W and ends with e`);
+// }
+// else {
+//     console.log(`${str} not start with W and ends with e`);
 
-}
+// }
 
+
+
+// Que-20------- check whether a string contains a substirng
+
+// let str = prompt("ENter string 1")
+// let sub = prompt("ENter sub string ")
+
+// let test1 = str.includes(sub)
+// console.log(test1);
+
+// let test2 = str.indexOf(sub)
+// console.log(test2);
+
+
+
+// Q--20 ------------- convert the first letter of a string in to uppercase
+
+// let str = prompt("ENter aa string ")
+
+// let first = str.charAt(0)
+// console.log(first);
+// let rem = str.slice(1)
+// console.log(rem);
+// console.log(first.toUpperCase());
+// let caps = first.toUpperCase() + rem
+// console.log(caps);
