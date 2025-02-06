@@ -319,22 +319,62 @@
 // QUe 16 remainder
 
 
-function convert() {
-    const data = document.querySelector("#data").value
+// function convert() {
+//     const data = document.querySelector("#data").value
 
-    let a = parseInt(prompt("ENter value "))
-    let b = parseInt(prompt("ENter value "))
-    let c = parseInt(prompt("ENter value "))
+//     let a = parseInt(prompt("ENter value "))
+//     let b = parseInt(prompt("ENter value "))
+//     let c = parseInt(prompt("ENter value "))
 
-    let res1 = a % 10
-    let res2 = b % 10
-    let res3 = c % 10
+//     let res1 = a % 10
+//     let res2 = b % 10
+//     let res3 = c % 10
 
-    if (res1 == res2 && res1 == res3) {
-        document.querySelector("#answer").innerHTML = `last digit is ${res1} which is same for all `
+//     if (res1 == res2 && res1 == res3) {
+//         document.querySelector("#answer").innerHTML = `last digit is ${res1} which is same for all `
 
-    } else {
-        document.querySelector("#answer").innerHTML = `last digit is ${res1} which is not same for all `
-    }
+//     } else {
+//         document.querySelector("#answer").innerHTML = `last digit is ${res1} which is not same for all `
+//     }
 
-}
+// }
+
+
+// Que 17 check palindrome
+
+
+// function convert() {
+//     const data = document.querySelector('#data').value
+//     let temp = data.split('')
+//     // console.log(temp);
+//     let strArrRev = temp.reverse()
+//     // console.log(strRev);
+//     let strRev = strArrRev.join('')
+//     console.log(data);
+//     if (strRev == "") {
+//         document.querySelector("#answer").innerHTML = "Enter value"
+
+//     }
+//     else if (strRev == data) {
+//         document.querySelector("#answer").innerHTML = "Palindrome"
+//     } else {
+//         document.querySelector("#answer").innerHTML = "not Palindrome"
+
+//     }
+// for (let i = 0; i < temp)
+// }
+
+
+// function convert() {
+//     // const data = document.querySelector('#data').value
+
+//     let data = prompt("Enter String")
+//     let len = data.length
+//     let msg = "it is a palindrome string"
+//     for (let i = 0; i < len / 2; i++) {
+//         if (data[i] != data[len - 1 - i]) {
+//             msg = "not palindrome"
+//         }
+//     }
+//     document.querySelector("#answer").innerHTML = `${msg}`
+// }
