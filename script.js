@@ -483,9 +483,37 @@
 
 // Q-23 find factor of number
 
-let num = parseInt(prompt("ENter a number"))
-for (let i = 2; i <= num; i++) {
-    if (num % i == 0) {
-        console.log(i);
-    }
-}
+// let num = parseInt(prompt("ENter a number"))
+// for (let i = 2; i <= num; i++) {
+//     if (num % i == 0) {
+//         console.log(i);
+//     }
+// }
+
+
+// Q-24--calculator using switch
+
+// let n1 = prompt("Enter 1st number")
+// let n2 = prompt("Enter 2nd number")
+
+// let opr = prompt("Please select among +,-,x,/")
+
+
+// switch (opr) {
+//     case "+":
+//         var res = parseFloat(n1) + parseFloat(n2)
+//         console.log(`${n1} + ${n2} = ${res}`);
+//         break;
+//     case "-":
+//         var res = parseFloat(n1) - parseFloat(n2)
+//         console.log(`${n1} - ${n2} = ${res}`);
+//         break; case "x":
+//         var res = parseFloat(n1) * parseFloat(n2)
+//         console.log(`${n1} x ${n2} = ${res}`);
+//         break; case "/":
+//         var res = parseFloat(n1) / parseFloat(n2)
+//         console.log(`${n1} / ${n2} = ${res}`);
+//         break;
+//     default:
+//         console.log("Invalid operator");
+// }
