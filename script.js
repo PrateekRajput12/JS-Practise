@@ -538,9 +538,22 @@
 
 
 
-let string = prompt("ENter a string")
-console.log(string);
+// let string = prompt("ENter a string")
+// console.log(string);
 
-let reg = new RegExp("red", 'gi')
-let newStr = string.replace(reg, "blue")
-console.log(newStr);
+// let reg = new RegExp("red", 'gi')
+// let newStr = string.replace(reg, "blue")
+// console.log(newStr);
+
+
+//---Q-27 reverse string using loop
+
+
+let str = prompt("ENter String")
+let len = str.length
+let rev = ""
+for (let i = len - 1; i >= 0; i--) {
+    console.log(str[i]);
+    rev += str[i]
+}
+console.log(rev);
