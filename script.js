@@ -451,9 +451,31 @@
 
 // 21 --- count vowel in string using regex
 
-let str = prompt("Please enter a string")
+// let str = prompt("Please enter a string")
 
-const reg = /[aeiou]/gi;
-let count = str.match(reg)
-console.log(count.join(","));
-console.log(count.length());
+// const reg = /[aeiou]/gi;
+// let count = str.match(reg)
+// console.log(count.join(","));
+// console.log(count.length());
+
+
+//----22-------find armstring number bt an interval
+
+
+
+// let a = parseInt(prompt("Please enter lower number"))
+// let b = parseInt(prompt("Please enter upper number"))
+// for (let i = a; i <= b; i++) {
+//     let temp = i
+//     let noOfDigit = i.toString().length
+//     let sum = 0
+//     while (temp > 0) {
+//         let digit = temp % 10
+//         temp = parseInt(temp / 10)
+//         sum += (digit ** noOfDigit)
+//     }
+//     if (sum == i) {
+//         console.log("ArmStrong" + i);
+//     }
+// }
+
