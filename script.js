@@ -446,3 +446,14 @@
 // console.log(first.toUpperCase());
 // let caps = first.toUpperCase() + rem
 // console.log(caps);
+
+
+
+// 21 --- count vowel in string using regex
+
+let str = prompt("Please enter a string")
+
+const reg = /[aeiou]/gi;
+let count = str.match(reg)
+console.log(count.join(","));
+console.log(count.length());
