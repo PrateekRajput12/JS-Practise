@@ -517,3 +517,16 @@
 //     default:
 //         console.log("Invalid operator");
 // }
+
+
+//---Q-25 print fibonacci series 
+
+
+var a = 0, b = 1
+let num = parseInt(prompt("ENter number"))
+for (let i = 0; i <= num; i++) {
+    let temp = a + b
+    console.log(temp);
+    a = b
+    b = temp
+}
