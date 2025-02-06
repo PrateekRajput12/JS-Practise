@@ -378,3 +378,19 @@
 //     }
 //     document.querySelector("#answer").innerHTML = `${msg}`
 // }
+
+
+
+// Que 18 -- check number of occurrneces of a character in a string using for loop
+
+function convert() {
+    let str = prompt("Please enter a string")
+    let letter = prompt("Please enter a letter")
+    let count = 0;
+    for (let i = 0; i < str.length; i++) {
+        if (letter == str[i]) {
+            count++
+        }
+    }
+    console.log(count);
+}
