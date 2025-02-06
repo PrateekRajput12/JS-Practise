@@ -549,11 +549,24 @@
 //---Q-27 reverse string using loop
 
 
-let str = prompt("ENter String")
-let len = str.length
-let rev = ""
-for (let i = len - 1; i >= 0; i--) {
-    console.log(str[i]);
-    rev += str[i]
-}
-console.log(rev);
+// let str = prompt("ENter String")
+// let len = str.length
+// let rev = ""
+// for (let i = len - 1; i >= 0; i--) {
+//     console.log(str[i]);
+//     rev += str[i]
+// }
+// console.log(rev);
+
+
+
+// Q--28 --sort words in alphabetical order
+
+let str = prompt("Please Enter a string")
+
+let strArr = str.split(" ")
+strArr.sort()
+console.log(str);
+console.log(strArr);
+
+console.log(strArr.join(" "));
